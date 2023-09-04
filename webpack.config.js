@@ -10,7 +10,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, '.'),
     filename: '[name]/xml-js.min.js',
-    libraryTarget: 'window',
+    libraryTarget: 'amd',
     // library: 'xmljs' // don't specify this
   },
   // module: {
